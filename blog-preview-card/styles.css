@@ -71,7 +71,7 @@
 
 .card {
   display: flex;
-  width: 384px;
+  width: 100%;
   max-width: 384px;
   box-sizing: border-box;
   padding: var(--spacing-200, 24px);
@@ -98,7 +98,6 @@
   display: block;
   width: 100%;
   height: auto;
-  align-items: center;
   align-self: stretch;
   border-radius: 10px;
 }
@@ -124,6 +123,7 @@
 .publish-date {
   color:var(--gray-950, #111);
   font-size: var(--text-preset-3);
+  font-weight: 500;
 }
 
 .title {
